@@ -26,7 +26,7 @@ img {
 
 div#home {
   position: relative;
-  height: 50vh;
+  min-height: 50vh;
   background-color: #0006;
 }
 
@@ -130,7 +130,7 @@ div#idea img:not(:last-of-type) {
   margin-bottom: 3em;
 }
 div#idea img {
-  width: 15em;
+  width: 13em;
   height: 20em;
 }
 div#answ {
