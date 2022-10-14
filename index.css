@@ -1,0 +1,157 @@
+body {
+  background-color: #ffb2f0;
+  font-family: Sora, sans-serif;
+  margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffb2f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #996b90;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+div#home {
+  position: relative;
+  height: 50vh;
+  background-color: #0006;
+}
+
+nome {
+  color: #ffb2f0;
+  font-weight: bold;
+  display: inline-block;
+  box-sizing: content-box;
+  margin-left: 2em;
+  margin-top: 4em;
+  /* position: absolute; */
+  /* top: 14vh;
+    left: 8vh; */
+  border-radius: 1em;
+  animation: hove 1.3s alternate infinite linear;
+
+  /* padding: 14px 30px 30px 14px; */
+
+  /* background-color: #ffe180; */
+}
+@keyframes hove {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-7px);
+  }
+}
+nome su {
+  /* width: 0; */
+  margin-right: 0.5ch;
+  transition: all 0.5s;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 0.6em;
+}
+div#home img {
+  position: absolute;
+  right: 7vh;
+  top: 5em;
+  /* width: 50px; */
+  /* height: 50px; */
+}
+nome > t {
+  /* font-size: 2.5em; */
+  font-size: max(2.5em, 300%);
+  /* font-size: clamp(2.5em, 5px, 20vw); */
+  display: inline-block;
+}
+nome parola {
+  white-space: nowrap;
+}
+nome > subt {
+  margin: 0;
+  color: white;
+  font-size: 1.5em;
+  /* line-height: 0; */
+}
+body > div:not([style="overflow: hidden;"]) {
+  padding-inline: 0.9em;
+  font-size: 1.1em;
+}
+div#why {
+  /* font-size: .9em; */
+  max-width: 85%;
+}
+div:not(#home) t {
+  font-size: 1.3em;
+  /* margin-left: .5em */
+  margin-right: -1em;
+  margin-bottom: 0.3em;
+  width: 100%;
+  max-width: max(85%, 400px);
+  display: inline-block;
+  font-weight: bold;
+  color: #362085;
+}
+div#why su {
+  /* font-size: 1.05em; */
+  font-weight: bold;
+  color: #362085;
+}
+/* div#why > ul {
+    list-style: none;
+} */
+div#why ul {
+  margin-top: 0.6em;
+  padding-left: 0.8em;
+}
+div#why li {
+  list-style: none;
+  margin-bottom: 0.2em;
+}
+div#idea > div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+div#idea img:not(:last-of-type) {
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+div#idea img {
+  width: 15em;
+  height: 20em;
+}
+div#answ {
+  background-color: #996b90;
+  margin-top: -.22em;
+  padding-bottom: 1em;
+}
+div#answ > div > su {
+    display: inline-block;
+}
+
+div#cred {
+    margin-top: -4em;
+}
+
+@media (pointer: coarse) {
+  nome {
+    margin-left: unset;
+  }
+  body > div:not([style="overflow: hidden;"]) {
+    padding-inline: 0.9em;
+    font-size: 1em;
+  }
+}
