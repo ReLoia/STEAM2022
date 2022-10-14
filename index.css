@@ -27,7 +27,7 @@ img {
 
 div#home {
   position: relative;
-  min-height: 50vh;
+  min-height: 30vh;
   background-color: #0006;
 }
 
@@ -42,7 +42,7 @@ nome {
   /* top: 14vh;
     left: 8vh; */
   border-radius: 1em;
-  animation: hove 1.3s alternate infinite linear;
+  /* animation: hove 1.3s alternate infinite linear; */
 
   /* padding: 14px 30px 30px 14px; */
 
