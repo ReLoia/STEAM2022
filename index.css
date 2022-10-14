@@ -194,7 +194,8 @@ div#cred {
     margin-top: 2em;
   }
   div#idea > div > * {
-  margin-inline: 0;
+  margin-bottom: .5em;
+  max-height: 8em;
   }
   nome > t {
     font-size: 3em;
